@@ -27,6 +27,15 @@ h3 {
   font-weight: bold;
 }
 
+.contact-text {
+  color: #396EB0;
+  background-color: #E4F9F5;
+  font-family:'Merriweather', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 40px; auto; 20px; auto;
+}
+
 p {
   line-height: 2;
 }
@@ -51,7 +60,7 @@ a:hover {
 
 .top-container {
   background-color: #E4F9F5;
-  padding-top: auto;
+  padding-top: 10px;
 }
 
 .middle-container {
@@ -92,7 +101,7 @@ a:hover {
 .top-cloud {
   position: absolute;
   right: 110px;
-  top: 44px;
+  top: 35px;
 }
 
 .tiny-cloud {
