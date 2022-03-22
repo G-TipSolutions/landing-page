@@ -5,25 +5,25 @@ body {
 }
 
 h1 {
-  color: #66BFBF;
+  color: #54BAB9;
   font-size: 6.8rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  text-align: center;
+    text-align: center;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  color: #396EB0;
+  font-family:'Merriweather', serif;
+  font-size: 1.8rem;
   font-weight: bold;
-  text-align: center;
+  margin: 40px; auto; 20px; auto;
 }
 
 h3 {
   color: #0A043C;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
 }
 
@@ -34,11 +34,11 @@ p {
 hr {
   border: dotted grey 6px;
   border-bottom: none;
-  width: 4%;
-  text-align: center;
+  width: 20%;
+  margin: 21px auto;
 }
 
-a {
+a{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -51,20 +51,22 @@ a:hover {
 
 .top-container {
   background-color: #E4F9F5;
+  padding-top: 10px;
 }
 
 .middle-container {
-  background-color: #E4F9F5;
+    background-color: #E4F9F5;
+    padding-top: 5px;
 }
 
 .bottom-container {
   background-color: #E4F9F5;
-  padding: 30px 0 10px;
+  padding: 50px 20px 50px 20px;
 }
 
 .skills-row {
   width: 50%;
-  margin: 50px auto 50px auto;
+  margin: 20px auto 20px auto;
   text-align: left;
 }
 
@@ -73,9 +75,8 @@ a:hover {
 }
 
 .intro {
-  background-color: #E4F9F5;
-  width: 100%;
-  margin: auto;
+  width: 30%;
+  margin: 20px auto 30px;
 }
 
 .contact-message {
@@ -88,56 +89,50 @@ a:hover {
   font-size: 0.75rem;
   padding: 10px 0;
 }
-
 .top-cloud {
   position: absolute;
-  right: 170px;
-  top: 10px;
+  right: 110px;
+  top: 35px;
 }
 
 .tiny-cloud {
   position: absolute;
-  right: 550px;
-  bottom: 230px;
+  right: 490px;
+  bottom: 210px;
 }
 
 .middle-cloud {
   position: absolute;
-  right: 735px;
-  bottom: 200px;
+  right: 800px;
+  bottom: 290px;
 }
 
-.bottom-cloud {
+.left-cloud {
   position: absolute;
-  left: 170px;
-  bottom: 280px;
+  left: 100px;
+  top: 10px;
 }
 
 .profile-img {
   width: 10%;
   float: left;
-  margin-left: 200px;
-
+  margin-left: 390px;
 }
 
-.biker-img {
+.disc-golf {
   float: left;
-
+  margin-left: 500px;
 }
 
-.disc-img {
-
+.biker {
+  float: right;
+  margin-right: 500px;
 }
-s
+
 .e-img {
-  margin: auto;
-  margin-left: 300px;
-}
-
-.exper-img {
-  margin: 10%;
+margin: 10%;
   float: left;
-  margin-left: 50px;
+  margin-left: 450px;
 }
 
 .btn {
@@ -147,13 +142,13 @@ s
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 15px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 16px;
-  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  padding: 12px 8px 12px 8px;
   text-decoration: none;
 }
 
