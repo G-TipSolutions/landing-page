@@ -1,4 +1,5 @@
 body {
+  background-color: #E4F9F5;
   color: #40514E;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -6,10 +7,10 @@ body {
 
 h1 {
   color: #54BAB9;
-  font-size: 6.8rem;
+  font-size: 6.0rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
@@ -27,8 +28,17 @@ h3 {
   font-weight: bold;
 }
 
+.root, h4 {
+  color: #0e342d;
+  background-color: #E4F9F5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: auto;  
+}
+
 .contact-text {
-  color: #396EB0;
+  color: #0A043C;
   background-color: #E4F9F5;
   font-family:'Merriweather', serif;
   font-size: 1.8rem;
@@ -38,6 +48,15 @@ h3 {
 
 p {
   line-height: 2;
+  font-weight: bold;
+}
+
+.quote {
+  font-family:'Merriweather', serif;
+  text-decoration: italic;
+  color: #254646;
+  font-size: .9rem;
+  font-weight: bold;
 }
 
 hr {
@@ -47,7 +66,7 @@ hr {
   margin: 21px auto;
 }
 
-a{
+a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -83,14 +102,23 @@ a:hover {
   text-decoration: underline;
 }
 
+.profile-img {
+  width: 8%;
+  float: left;
+  margin-left: 370px;
+}
+
 .intro {
-  width: 30%;
+  width: 40%;
   margin: 20px auto 30px;
 }
 
 .contact-message {
+color: #0A043C;
   width: 40%;
-  margin: 20px auto 30px;
+  margin: 20px auto 200px;
+  font-weight: Bold;
+  margin-bottom: 100;  
 }
 
 .copyright {
@@ -98,22 +126,23 @@ a:hover {
   font-size: 0.75rem;
   padding: 10px 0;
 }
+
 .top-cloud {
   position: absolute;
   right: 110px;
-  top: 35px;
+  top: 55px;
 }
 
 .tiny-cloud {
   position: absolute;
   right: 490px;
-  bottom: 210px;
+  bottom: 140px;
 }
 
 .middle-cloud {
   position: absolute;
   right: 800px;
-  bottom: 290px;
+  bottom: 200px;
 }
 
 .left-cloud {
@@ -122,15 +151,9 @@ a:hover {
   top: 10px;
 }
 
-.profile-img {
-  width: 10%;
-  float: left;
-  margin-left: 390px;
-}
-
 .disc-golf {
-  float: left;
-  margin-left: 500px;
+  float: right;
+  margin-right: 450px;
 }
 
 .biker {
